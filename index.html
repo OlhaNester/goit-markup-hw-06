@@ -560,24 +560,21 @@
             </li>
           </ul>
         </div>
+        <form>
         <div class="container-subscribe">
-          <h3 class="list-title">Подпишитесь на рассылку</h3>
-          <!-- <div class=""> -->
-          <form>
-            <input class="input-email" type="email" name="email" />
-            <button type="button" class="subscribe-button"></button>
-          </form>
-          <!-- </div> -->
+          <label for="email">Подпишитесь на рассылку</label>
+            <div class="input-button">        
+            <input class="input-email" type="email" name="email" id="email" placeholder="Email" />
+            <button type="submit" class="subscribe-button">Подписаться</button>
+                      </div>     
         </div>
+      </form>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="close-button" data-modal-close>
-          <!-- <svg class="close">
-            <use href="./index_images/icons/close.svg"></use>
-          </svg> -->
-        </button>
+                  </button>
       </div>
     </div>
     <script src="./js/modal.js"></script>
