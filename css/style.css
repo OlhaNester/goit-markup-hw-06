@@ -733,12 +733,15 @@ box-sizing: border-box;
 background-color: transparent;
 /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); */
 border-radius: 4px;
+padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+
 }
 .input-email::placeholder {
   padding-top: 15px;
   padding-bottom: 15px;
-  padding-left: 16px;
-  font-size: 16px;
+    font-size: 16px;
 line-height: 1.25;
 display: flex;
 align-items: center;
