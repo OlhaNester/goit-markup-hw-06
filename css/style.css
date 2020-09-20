@@ -359,7 +359,7 @@ line-height: 1.17;
 letter-spacing: 0.01em;
 color: var( --primary-text-colour);
 }
-.field-form input {
+.field-input {
   width: 100%;
   margin: 0px;
   padding: 11px 42px;
@@ -376,14 +376,15 @@ border-radius: 4px;
   box-sizing: border-box;
   border-radius: 4px;
   }
-.field-form textarea::placeholder {
+
+.field-input textarea::placeholder {
 font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.01em;
 color: rgba(117, 117, 117, 0.5);
 }
 
-.field-form input[type="checkbox"] {
+.field-input[type="checkbox"] {
   width: 16px;
   height: 15px;
   margin-right: 8.5px;
@@ -431,23 +432,15 @@ color: rgba(117, 117, 117, 0.5);
   width: 18px;
   height: 18px;
   fill: var(--title-text-colour);
-  
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
- input:focus input{
+.field-input:focus {
   border-color: var(--accent-colour);
 
 }
-.icon-form:focus {
+.field-input:focus ~ .icon-form {
   fill: var(--accent-colour);
-  outline-color: transparent;
-}
-
-
-/* .field-form input:focus .icon-form {
-  fill: var(--accent-colour);
-} */
-
+  }
 
 
 .feature-icon {
